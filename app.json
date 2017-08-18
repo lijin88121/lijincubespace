@@ -1,0 +1,24 @@
+{
+  "name": "Lijin Cubespace",
+  "description": "This app is scrapping data",
+  "keywords": [
+    "productivity",
+    "nodejs",
+    "lifestyle"
+  ],
+  "website": "https://lijin-cubespace.com/",
+  "repository": "https://github.com/jane-doe/small-sharp-tool",
+  "logo": "https://lijin-cubespace.com/logo.png",
+  "success_url": "/welcome",
+  "scripts": {
+    "postdeploy": "bundle exec rake bootstrap"
+  },
+  "image": "heroku/nodejs",
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "bundle exec rake test"
+      }
+    }
+  }
+}
